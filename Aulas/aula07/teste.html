@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: black;
+            font-family: 'Source Code Pro', monospace;
+            color: chartreuse;
+            font-size: 22px;
+            padding-left: 2em;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt("Bem vindo! digite o seu nome por favor!")
+        window.alert(`Bem vindo ${nome}! é um prazer telo aqui conosco!` )
+        
+        window.alert("a partir daqui me forneça alguns poucos dados por favor?")
+        window.alert('OK, a partir daqui peço que me informe alguns valores ok?')
+        var n0 = Number(window.prompt('digite um número por favor'))
+        var n1 = Number(window.prompt('digite um número por favor'))
+        var n2 = Number(window.prompt('digite um número por favor'))
+        var n3 = Number(window.prompt('digite um número por favor'))
+        var soma = n0 + n3
+        var div = n1 / n2
+        var sub = n0 - n1
+        var multi = n2 * n3
+        
+        document.write(`Olá ${nome}! muito obrigado por me ajudar!, vamos lá `)
+        document.write(`Você se chama ${nome}, o seu nome totalmente em maiúsculas fica assim >> ${nome.toUpperCase()}, minusculas >> ${nome.toLowerCase()} `)
+        document.writeln(`os valores que você digitou foram ${n0}, ${n1}, ${n2} e ${n3} respectivamente! vamos aos resultados:
+        
+         ${n0} + ${n3} = ${soma} ****
+         ${n1} / ${n2} = ${div} ****
+         ${n0} - ${n1} = ${sub}****
+         ${n2} * ${n3} = ${multi}****
+        `)
+    </script>
+</body>
+</html>
